@@ -6,13 +6,16 @@ font-family: Roboto,
 sans-serif;
 }
 
+body {
+    background: #D6E1F0;
+}
+
 .timer__block {
     display: block;
     margin: 170px 30%;
 }
 
 .timer__block-title {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -28,6 +31,7 @@ sans-serif;
 .timer__block-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 20px 15px;
     width: 100px;
     height: 100px;
@@ -37,4 +41,16 @@ sans-serif;
     box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
     0px 12px 42px -4px rgba(24, 39, 75, 0.12);
     border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+span {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
 }
